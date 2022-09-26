@@ -122,6 +122,10 @@ append_with_prefix(src_tls ${ARM_MBEDTLS_PATH}/library
     ssl_ticket.c
     ssl_tls.c
     ssl_tls13_keys.c
+    ssl_tls13_server.c
+    ssl_tls13_client.c
+    ssl_tls13_generic.c
+    ssl_debug_helpers_generated.c
 )
 
 
